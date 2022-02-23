@@ -38,4 +38,21 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #4F5665;
+}
+
 /*# sourceMappingURL=app.css.map */
