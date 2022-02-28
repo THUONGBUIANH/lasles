@@ -52,7 +52,41 @@ img {
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
+  font-weight: 400;
   color: #4F5665;
+}
+
+.header {
+  padding-top: 50px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu {
+  list-style: none;
+  display: flex;
+  gap: 0 40px;
+}
+.header .menu-link {
+  color: #4F5665;
+}
+.header-auth {
+  display: flex;
+  gap: 0 30px;
+  align-items: center;
+}
+.header-auth .signin {
+  font-weight: 500;
+  color: #0B132A;
+}
+.header-auth .signup {
+  padding: 13px 45px;
+  border: 1px solid;
+  border-radius: 100rem;
+  color: #F53838;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=app.css.map */
