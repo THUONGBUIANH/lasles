@@ -1,5 +1,6 @@
 .header {
   padding-top: 50px;
+  padding-bottom: 100px;
   &-container {
     display: flex;
     justify-content: space-between;
@@ -25,10 +26,6 @@
       }
 
       .signup {
-          padding: 13px 45px;
-          border: 1px solid;
-          border-radius: 100rem;
-          color: $primary-color;
           font-weight: 500;
       }
   }

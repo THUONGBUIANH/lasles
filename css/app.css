@@ -56,8 +56,31 @@ body {
   color: #4F5665;
 }
 
+.button {
+  display: inline-block;
+  line-height: 1;
+  padding: 13px 45px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Rubik", sans-serif;
+}
+.button--primary {
+  color: #FFFFFF;
+  background-color: #F53838;
+}
+.button--round {
+  border: 1px solid;
+  color: #F53838;
+  border-radius: 100rem;
+}
+.button--box-shadow {
+  box-shadow: 0px 20px 30px 0px rgba(245, 56, 56, 0.35);
+}
+
 .header {
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 .header-container {
   display: flex;
@@ -82,11 +105,44 @@ body {
   color: #0B132A;
 }
 .header-auth .signup {
-  padding: 13px 45px;
-  border: 1px solid;
-  border-radius: 100rem;
-  color: #F53838;
   font-weight: 500;
+}
+
+.banner {
+  padding-bottom: 100px;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.banner-left {
+  width: 100%;
+  max-width: 555px;
+}
+.banner-left h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #0B132A;
+  padding-bottom: 20px;
+}
+.banner-left strong {
+  font-weight: 700;
+}
+.banner-left p {
+  line-height: 1.875;
+  color: #4F5665;
+  padding-bottom: 50px;
+}
+.banner-left .started {
+  padding: 17px 77px;
+}
+.banner-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(40px, -50%);
 }
 
 /*# sourceMappingURL=app.css.map */
