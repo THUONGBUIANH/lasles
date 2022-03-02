@@ -1,0 +1,40 @@
+.intro {
+  margin-bottom: 100px;
+  &-container {
+    padding: 37px 0;
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    justify-content: space-between;
+    min-height: 200px;
+    box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+  }
+
+  &-item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 35px;
+  }
+
+  &-infor {
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: calc(30 / 25);
+      color: $heading-color;
+    }
+    .text {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: calc(30 / 20);
+      color: $text-color;
+    }
+  }
+}
+
+.intro-item:nth-child(2) {
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+}
