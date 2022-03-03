@@ -54,7 +54,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #4F5665;
-  background: #F6F6F6;
+  background: white;
 }
 
 .button {
@@ -77,6 +77,33 @@ body {
 }
 .button--box-shadow {
   box-shadow: 0px 20px 30px 0px rgba(245, 56, 56, 0.35);
+}
+
+.heading-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.4285714286;
+  color: #0B132A;
+  text-transform: capitalize;
+}
+
+.desc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #4F5665;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: 0 10px;
+  align-items: center;
 }
 
 .header {
@@ -181,6 +208,23 @@ body {
 .intro-item:nth-child(2) {
   border-left: 2px solid #eeeff2;
   border-right: 2px solid #eeeff2;
+}
+
+.feature {
+  padding-bottom: 130px;
+}
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0 170px;
+}
+.feature .feature-item {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.1428571429;
+  color: #4F5665;
 }
 
 /*# sourceMappingURL=app.css.map */
