@@ -26,15 +26,15 @@ body {
   border-radius: 10px;
   font-family: $font;
 
-  &--primary {
-    color: $white-color;
-    background-color: $primary-color;
-  }
-
   &--round {
     border: 1px solid;
     color: $primary-color;
     border-radius: 100rem;
+  }
+
+  &--primary {
+    color: $white-color;
+    background-color: $primary-color;
   }
 
   &--box-shadow {
