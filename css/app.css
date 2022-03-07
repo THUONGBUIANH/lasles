@@ -65,10 +65,10 @@ body {
   outline: none;
   border-radius: 10px;
   font-family: "Rubik", sans-serif;
+  color: #F53838;
 }
 .button--round {
   border: 1px solid;
-  color: #F53838;
   border-radius: 100rem;
 }
 .button--primary {
@@ -76,7 +76,19 @@ body {
   background-color: #F53838;
 }
 .button--box-shadow {
-  box-shadow: 0px 20px 30px 0px rgba(245, 56, 56, 0.35);
+  position: relative;
+}
+.button--box-shadow::after {
+  content: "";
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  filter: blur(54px);
+  border-radius: 60px;
+  background-color: rgba(245, 56, 56, 0.35);
 }
 
 .heading-title {
@@ -283,6 +295,20 @@ body {
 .plan-card.active .button, .plan-card:hover .button {
   background-color: #F53838;
   color: white;
+}
+.plan .network-heading {
+  max-width: 384px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.partner {
+  margin-bottom: 50px;
+}
+.partner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */

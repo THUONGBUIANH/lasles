@@ -52,16 +52,22 @@
     margin-bottom: 20px;
   }
 
-  a { 
-      font-weight: bold;
+  a {
+    font-weight: bold;
   }
 
-  &-card.active, 
+  &-card.active,
   &-card:hover {
     border-color: $primary-color;
     .button {
       background-color: $primary-color;
       color: white;
     }
+  }
+
+  .network-heading {
+    max-width: 384px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
