@@ -241,7 +241,6 @@ body {
 
 .plan {
   padding: 80px 0 30px;
-  background-color: #FBFBFB;
 }
 .plan-header {
   max-width: 555px;
@@ -309,6 +308,69 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.customer {
+  padding-bottom: 65px;
+}
+.customer-header {
+  max-width: 555px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+.customer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+}
+.customer-item {
+  min-width: 400px;
+  min-height: 230px;
+  padding: 15px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.customer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.customer-avatar {
+  display: flex;
+  align-items: center;
+  gap: 0 21px;
+}
+.customer-avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 100rem;
+  object-fit: cover;
+  max-width: 50px;
+}
+.customer-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0B132A;
+  margin-bottom: 5px;
+}
+.customer-addrress {
+  font-size: 14px;
+  font-weight: normal;
+  color: #4F5665;
+}
+.customer-rating {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.customer-content {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.875;
+  color: #0B132A;
 }
 
 /*# sourceMappingURL=app.css.map */
